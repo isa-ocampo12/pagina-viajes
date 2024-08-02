@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="/agencia de viajes/imagenes/icono.png" type="image/x-icon">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #f0f0f0, #ffffff); /* Degradado en tonos grises claros y blancos */
+            color: #333333; /* Color de texto oscuro para mejor legibilidad */
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            margin: 20px 0;
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 0 20px;
+        }
+        a {
+            color: #1a73e8; /* Color azul para enlaces */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente para resaltar el texto */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+        }
+        .emoji {
+            font-size: 1.2em; /* Tamaño ligeramente mayor para los emojis */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="/agencia de viajes/inicio.html" >inicio</a>
+    </nav>
+    <h1 align="center">¡¡Contactanos!!</h1>
+    <p align="center">
+        Contactanos para atendeterte con la mejor actitud.
+    </p>
+    <div align="center">
+        <img width="30%" src="../imagenes/contacto.jpg" alt="">
+    </div>
+    <div align="center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6956079525416!2d-75.43051962602739!3d6.17149562715589!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e469e78b840720f%3A0x9263a9a2a8b8e1b8!2sAeropuerto%20Internacional%20Jos%C3%A9%20Mar%C3%ADa%20C%C3%B3rdova!5e0!3m2!1ses-419!2sco!4v1722268883377!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <h2 align="center"> Llena el siguiente formulario:</h2>
+    <div align="center">
+        <form action="">
+            <!-- placeholder= texto dentro del recuadro -->
+            <label> Ingrese nombre completo: </label>
+            <input type="text" placeholder="En mayúscula"> <br><br> 
+            
+            <label> Ingrese numero de telefono: </label>
+            <input type="number" maxlength="10 required"><br><br>
+
+            <label > Ingrese una contraseña: </label>
+            <input type="password"><br> <br>
+
+            <label> Ingresa correo: </label>
+            <input type="email" required><br><br>
+
+            <!-- edad entre 10  y 60 -->
+            <label> Selecciona tu edad: </label> 
+            <input type="number" min="18" max="60" required><br><br>
+             
+            <label> Selecciona tu fecha de nacimiento: </label>
+            <input type="date" min="1980-01-01" max="2006-12-31" required> <br><br>
+
+            <!-- accept= tipo de archivo "Extensiones" -->
+            <label> Selecciona una foto: </label>
+            <input type="file" max="2MB" accept=".jpg, .jng, .jpeg, .gif "><br> <br>
+
+            <!-- radio= seleccionar una sola opcion -->
+            <label> Selcciona tu sexo: </label> <br>
+            <input type="radio" name="sexo" value="Hombre"> Hombre <br>
+            <input type="radio" name="sexo" value="Mujer"> Mujer <br>
+            <input type="radio" name="sexo" value="Otro"> Otro <br><br>
+
+            <!-- checkbox= seleccion mutiple, varias opciones -->
+            <label> Selecciona tu plan preferido: </label><br> 
+            <input type="checkbox" name="Plan" value="Pareja"> Pareja <br>
+            <input type="checkbox" name="Plan" value="Familiar"> Familiar <br>
+            <input type="checkbox" name="Plan" value="Amigos"> Amigos <br>
+            <label> Elige un destino: </label>
+            <!-- select= lista desplegable -->
+            <select name="Destino">
+                <option value="Paris"> Paris</option>
+                <option value="España"> España </option>
+                <option value="Italia"> Italia</option>
+            </select><br><br>
+            <label> Sugerencias, quejas, dudas e inquietudes: </label>
+            <textarea name="pqr" placeholder="Escribe tu experiencia"></textarea>
+
+            <br><br><br><br><br>
+
+            <button type="submit">Enviar informacion</button>
+            <button type="reset">Cancelar envio</button>
+        </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+</body>
+</html>
